@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Device was launched with N
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
-Q
+
 
 # Inherit from albus device
 $(call inherit-product, device/motorola/albus/device.mk)

@@ -178,13 +178,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.cs_srv_type=1 \
     service.qti.ims.enabled=1
     
+# OMX
+# Rank OMX SW codecs lower than OMX HW codecs
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.omx_default_rank.sw-audio=1 \
+    debug.stagefright.omx_default_rank=0
+    
+ 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
+    media.settings.xml=/vendor/etc/media_profiles.xml \
     media.aac_51_output_enabled=true \
-    mm.enable.qcom_parser=135715 \
-    mm.enable.sec.smoothstreaming=false \
-    mm.enable.smoothstreaming=false \
-    mmp.enable.3g2=true
+    vendor.mm.enable.qcom_parser=135715 \
+    vendor.mm.en.sec.smoothstreaming=false \
+    vendor.mm.enable.smoothstreaming=false \
+    vendor.mmp.enable.3g2=true
 
 # NITZ
 PRODUCT_PROPERTY_OVERRIDES += \

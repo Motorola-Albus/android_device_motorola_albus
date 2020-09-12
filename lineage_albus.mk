@@ -30,8 +30,10 @@ PRODUCT_DEVICE := albus
 PRODUCT_NAME := lineage_albus
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto Z2 Play
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := albus
+
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -40,4 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=albus \
     PRIVATE_BUILD_DESC="albus-user 8.0.0 OPSS27.76-12-25-3 4 release-keys"
 
-BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+BUILD_FINGERPRINT := "motorola/payton/payton:8.0.0/OPWS27.57-25-6-10/12:user/release-keys"
+    # for specific
+$(call inherit-product, vendor/motorola/albus/albus-vendor.mk)

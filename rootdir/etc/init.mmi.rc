@@ -248,11 +248,6 @@ on boot
    chown root oem_5004 /sys/class/graphics/fb0/te_enable
    chown root oem_5004 /sys/class/graphics/fb0/frame_counter
 
-   chmod 0755 /persist/sensors
-   chmod 0644 /persist/sensors/sensors_settings
-   chown system root /persist/sensors/sensors_settings
-
-
 # FPC device parameter permissions
    chown system oem_5004 /sys/bus/spi/devices/spi12.0/nav
    chown system oem_5004 /sys/bus/spi/devices/spi12.0/clk_enable

@@ -67,6 +67,8 @@ sed -i "s|/system/etc/|/vendor/etc/|g" "$CAM2_SENSOR_MODULES"
 ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so
 sed -i "s|/system/etc/|/vendor/etc/|g" "$ZAF_CORE"
 
+CAMERA_SERVICE="$BLOB_ROOT"/vendor/lib/hw/camera.msm8953.so
+sed -i "s|service.bootanim.exit|service.bootanim.hold|g" "${CAMERA_SERVICE}"
 
 # Load camera metadata shim
 CAMERAHAL="$BLOB_ROOT"/vendor/lib/hw/camera.msm8998.so

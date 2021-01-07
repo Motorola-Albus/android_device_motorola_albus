@@ -1,12 +1,12 @@
 [
   {
     "remote": "github",
-    "repository":  "marcost2/kernel_motorola_msm8953",
+    "repository":  "JarlPenguin/android_kernel_motorola_msm8953",
     "target_path": "kernel/motorola/msm8953"
   },
   {
     "remote": "github",
-    "repository": "marcost2/proprietary_vendor_motorola-1",
+    "repository": "EmaMaker/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
   },
   {
@@ -17,6 +17,11 @@
     "remote": "github",
     "repository": "LineageOS/android_external_bson",
     "target_path": "external/bson"
+  }
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_system_qcom",
+    "target_path": "system/qcom"
   }
 ]
 

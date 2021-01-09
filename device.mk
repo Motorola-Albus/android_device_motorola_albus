@@ -262,7 +262,8 @@ PRODUCT_PACKAGES += \
 
 # Display Calibration
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay@2.0-service-sysfs
 
 # DRM
 PRODUCT_PACKAGES += \

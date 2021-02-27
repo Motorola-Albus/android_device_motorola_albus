@@ -1,32 +1,28 @@
 [
   {
-    "remote": "github",
-    "repository":  "JarlPenguin/android_kernel_motorola_msm8953",
-    "target_path": "kernel/motorola/msm8953"
+    "repository":  "marcost2/kernel_motorola_msm8953",
+    "target_path": "kernel/motorola/msm8953",
+    "branch":      "lineage-17.1"
   },
   {
-    "remote": "github",
-    "repository": "EmaMaker/proprietary_vendor_motorola",
+    "repository":  "EmaMaker/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
+    "branch":      "lineage-17.1"
   },
   {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
+    "repository":  "LineageOS/android_system_qcom",
+    "target_path": "system/qcom",
+    "branch":      "lineage-17.1"
   },
   {
-    "remote": "github",
     "repository": "LineageOS/android_external_bson",
-    "target_path": "external/bson"
+    "target_path": "external/bson",
+    "branch":      "lineage-17.1"
   },
   {
-    "remote": "github",
-    "repository": "LineageOS/android_system_qcom",
-    "target_path": "system/qcom"
-  },
-  {
-    "remote": "github",
     "repository": "LineageOS/android_hardware_motorola",
-    "target_path": "hardware/motorola"
+    "target_path": "hardware/motorola",
+    "branch":      "lineage-17.1"
   }
 ]
 

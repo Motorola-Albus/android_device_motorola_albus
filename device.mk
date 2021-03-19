@@ -82,7 +82,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0_vendor \
     camera.device@3.2-impl \
     libbson.vendor \
-    Camera2 \
     Snap \
     libwui 
 
